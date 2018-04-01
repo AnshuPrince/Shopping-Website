@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31 Mar, 2018, 2:35:11 PM
+    Author     : Anshu_Prince
+*/
+            body
+            {
+                margin: 0px;
+                padding-left:0px;
+                padding-right: 0x;
+               
+            }
+            .sidenav 
+              {
+               position: fixed;
+               height: 100%;
+               width: 0;
+               position: absolute;
+               z-index: 1;
+               background-color: black;
+               overflow-x: hidden;
+               transition: 0.5s;
+               opacity:0.8;
+               padding-bottom: 60px;
+               
+             
+               }
+             .sidenav a 
+             {
+                padding: 8px 8px 8px 32px;
+                text-decoration: none;
+                font-size: 25px;
+                color: white;
+                display: block;
+                transition: 0.3s;
+             }
+
+            .sidenav a:hover, .offcanvas a:focus
+               {
+                 color: #47aab2;
+               }
+
+            .sidenav .closebtn 
+             {
+                position: absolute;
+                top: 0;
+                right: 25px;
+                font-size: 36px;
+                margin-left: 50px;
+             }
+             a{
+                 text-decoration: none;
+             }
